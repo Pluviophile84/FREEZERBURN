@@ -1,0 +1,23 @@
+{
+  "name": "FREEZERBURN",
+  "ticker": "FRZBRN",
+  "creative_lock": "APPROVED",
+  "image_path": "assets/brand/FREEZERBURN_logo_avatar_v1.png",
+  "image_dimensions": [
+    1024,
+    1024
+  ],
+  "asset_sha256": "79bb1623aa76c1230d4a4e86a1047a02503cb5cd5ab5b19fa1a5352cf1a89f8e",
+  "approved_copy_path": "FREEZERBURN_LOCKED_COPY_v1.md",
+  "codex_prompt_path": "FREEZERBURN_CODEX_HANDOFF.md",
+  "launch_packet_path": "FREEZERBURN_LAUNCH_PACKET.md",
+  "verified_links": {
+    "MINT_ADDRESS": null,
+    "PUMP_FUN_URL": null,
+    "X_URL": null,
+    "CHART_URL": null,
+    "DOMAIN_URL": null
+  },
+  "website_built": false,
+  "token_live": false
+}

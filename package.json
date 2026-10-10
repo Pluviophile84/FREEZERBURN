@@ -1,0 +1,23 @@
+{
+  "name": "freezerburn",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent fictional satire. Static FREEZERBURN landing page.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs --dist",
+    "build": "node scripts/build.mjs",
+    "lint": "node --check app.js && node --check launch-config.js && node --check scripts/serve.mjs && node --check scripts/build.mjs",
+    "test": "node --test tests/site.test.mjs",
+    "test:browser": "playwright test"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.64.0"
+  }
+}
